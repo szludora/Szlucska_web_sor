@@ -1,0 +1,10 @@
+table {
+    border: solid 1px white;
+    text-align: center;
+    color: gray;
+}
+
+tbody tr:nth-child(odd) {
+    background: rgb(117, 115, 115);
+  }
+

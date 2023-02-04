@@ -1,0 +1,63 @@
+@import url(header.css);
+@import url(nav.css);
+@import url(article.css);
+@import url(footer.css);
+@import url(table.css);
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Verdana, sans-serif;
+    color: beige;
+}
+
+
+body {
+    background-image: url(design/teglafal.jpg);
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #333333;
+    display: grid;
+    grid-template-areas:
+    "h h h h h h h h h"
+    "k a a a a a n n n"
+    "f f f f f f f f f" ;   
+}
+
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+
+article {
+    grid-area: a;
+
+}
+
+footer {
+    grid-area: f;
+
+}
+
+@media screen and (max-width: 700px) {
+    main {
+        grid-template-areas:
+        "h"
+        "n"
+        "a"
+        "f" ;   
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+}
+

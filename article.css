@@ -1,0 +1,24 @@
+article {
+    text-align: justify;
+    font-size: 10px;
+    background-color: #000000;
+}
+
+article h2 {
+    font-size: 15px;
+}
+
+
+
+article ul li {
+    list-style-type: square;
+}
+
+
+
+article img {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
