@@ -15,10 +15,13 @@ article ul li {
 }
 
 
+div {
+    background-color: black;
+}
 
-article img {
+div img {
     float: left;
-    width: 30%;
-    padding: 20px;
+    padding: 10px;
+    width: 300px;
 }
 

@@ -23,7 +23,7 @@ main {
     display: grid;
     grid-template-areas:
     "h h h h h h h h h"
-    "k a a a a a n n n"
+    "d a a a a a n n n"
     "f f f f f f f f f" ;   
 }
 
@@ -42,6 +42,10 @@ article {
 
 }
 
+div {
+    grid-area: d;
+}
+
 footer {
     grid-area: f;
 
@@ -52,6 +56,7 @@ footer {
         grid-template-areas:
         "h"
         "n"
+        "d"
         "a"
         "f" ;   
     }
